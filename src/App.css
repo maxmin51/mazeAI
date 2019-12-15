@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.grid {
+  padding-top: 5px;
+  width: 95%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.slice {
+  flex: 1;
+  background-color: rgb(182, 218, 106);
+  margin: 2px;
+  min-height: 20px;
+}
+
+.blocked--true {
+  background-color: #555152;
+}
+
+.start--true {
+  background-color: #0101EE;
+}
+
+.end--true {
+  background-color: #01EE01;
+}
+
+.border--true {
+  background-color: #99173C;
+}
+
+.dead--true {
+  background-color: rgb(200, 201, 196);
+}
+
+.tracksol--true {
+  background-color: #55AAEE;
+}
+
+.control__panel {
+  max-width: 650px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  padding: 20px;
+} 
